@@ -1,6 +1,7 @@
 #include <lua.hpp>
 #define GLFW_INCLUDE_GLCOREARB
 //#define GLFW_INCLUDE_GLU
+#define GL_GLEXT_PROTOTYPES 1
 #include <GLFW/glfw3.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -88,7 +89,7 @@ public:
 
     void show( void )
     {/*{{{*/
-        init();
+        //init();
         info();
         //
         glClearColor( 0.9f, 0.9f, 0.9f, 1.0f );

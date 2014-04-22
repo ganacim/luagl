@@ -1,6 +1,7 @@
 #include "glwindow.h"
 #define GLFW_INCLUDE_GLCOREARB
 //#define GLFW_INCLUDE_GLU
+#define GL_GLEXT_PROTOTYPES 1
 #include <GLFW/glfw3.h>
 #include <cstdio>
 #include <cstdlib>
